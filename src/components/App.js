@@ -18,7 +18,7 @@ function App() {
           <About />
         </Route>
         <Route 
-        exact path= "/portfolio">
+        exact path= "/project-portfolio">
           <ProjectPortfolio />
         </Route>
         
