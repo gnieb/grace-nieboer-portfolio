@@ -17,7 +17,7 @@ function NavBar () {
                 About
             </NavLink>
             <NavLink
-            to="/project-portfolio"
+            to="/portfolio"
             exact>
                 Project Portfolio
             </NavLink>
