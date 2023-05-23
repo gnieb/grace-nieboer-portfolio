@@ -19,7 +19,7 @@ function NavBar () {
             <NavLink
             to="/portfolio"
             exact>
-                Project Portfolio
+                Portfolio
             </NavLink>
         </div>
     )
