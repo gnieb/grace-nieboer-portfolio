@@ -4,6 +4,7 @@ import {Route, Switch} from "react-router-dom";
 import NavBar from './NavBar';
 import About from './About';
 import ProjectPortfolio from './ProjectPortfolio';
+// import "../index.css"
 
 function App() {
   return (
