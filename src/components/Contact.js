@@ -14,8 +14,6 @@ export default function Contact () {
         <a href="mailto:grace.nieboer@outlook.com">
             <Envelope style={{height:"60px"}}/>
         </a>
-
-
         </>
     )
 }
