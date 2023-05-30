@@ -1,7 +1,8 @@
 import React from "react";
-import Contact from "./Contact";
 import {ReactComponent as Instagram} from './instagram.svg'
 import {ReactComponent as LinkedIn} from './linkedin-in.svg'
+import {ReactComponent as Github} from './github.svg'
+import {ReactComponent as Medium} from './medium.svg'
 import { NavLink } from "react-router-dom";
 
 
@@ -18,11 +19,11 @@ function Home () {
                 <a href="https://www.linkedin.com/in/gracenieboer/"> 
                     <LinkedIn style = {{height:"30px"}} />
                 </a>
-                <a>
-                    github
+                <a href="https://github.com/gnieb">
+                    <Github style={{height:"30px"}}/>
                 </a>
-                <a>
-                    blog
+                <a href="https://medium.com/@grace.nieboer">
+                    <Medium style={{height:"30px"}} />
                 </a>
             </div>
             <div>
