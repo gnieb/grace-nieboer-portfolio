@@ -1,5 +1,7 @@
 import {ReactComponent as LinkedIn} from './linkedin-in.svg'
 import {ReactComponent as Envelope} from './envelope.svg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 export default function Contact () {
     return (
@@ -12,7 +14,8 @@ export default function Contact () {
             <LinkedIn style={{height:"60px"}}/>
         </a>
         <a href="mailto:grace.nieboer@outlook.com">
-            <Envelope style={{height:"60px"}}/>
+      
+            <FontAwesomeIcon icon={faEnvelope} style={{height:"60px"}}/>
         </a>
         </>
     )
