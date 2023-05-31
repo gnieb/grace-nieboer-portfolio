@@ -1,6 +1,5 @@
 import React from "react";
-import {ReactComponent as Github} from './github.svg'
-import {ReactComponent as Medium} from './medium.svg'
+import { faMedium } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -25,7 +24,7 @@ function Home () {
                 <FontAwesomeIcon icon={faGithub} style={{height:"30px",color: "#ffffff",}} />
                 </a>
                 <a href="https://medium.com/@grace.nieboer">
-                    <Medium style={{height:"30px"}} />
+                <FontAwesomeIcon icon={faMedium} style={{height:"30px",color: "#ffffff",}}/>
                 </a>
             </div>
             <div>
