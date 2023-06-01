@@ -10,8 +10,8 @@ import { NavLink } from "react-router-dom";
 function Home () {
 
     return (
-        <div className="home">
-            <h1 className = "text-xxl" >HELLO World</h1>
+        <div>
+            <h1 className = "text-xxl font-display" >HELLO World</h1>
             <div>
                 <h1>get to know me</h1>
                 <a href="https://www.instagram.com/grayce.elisabeth_/" >

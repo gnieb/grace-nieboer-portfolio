@@ -7,8 +7,8 @@ function NavBar () {
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                 <div className="relative flex h-16 items-center justify-between">
                     <div className="flex space-x-10">
-                        <h1>GRACE NIEBOER</h1>
-                        <h1>Software Engineer</h1>
+                        <h1 className="text-lg font-display font-bold">Grace Nieboer</h1>
+                        <h1 className="text-lg font-display font-bold">Software Engineer</h1>
                     </div>
                     <div className="flex space-x-4">
                         <NavLink
