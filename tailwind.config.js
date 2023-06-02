@@ -7,9 +7,6 @@ module.exports = {
       'display' : 'Bodoni Moda, serif'
     },
     extend: {
-      fontSize: {
-        xxl :'200px'
-      },
     },
   },
   plugins: [],
