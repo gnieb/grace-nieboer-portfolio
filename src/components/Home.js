@@ -14,20 +14,22 @@ function Home () {
             <div className=" text-3xl sm:text-[40px]">
                 I AM A PASSIONATE DEVELOPER WITH A LOVE FOR FINDING CREATIVE SOLUTIONS THAT MAKE THE WORLD BETTER. OH, AND I'M A COFFEE FIEND.
             </div>
-            <div className = "object-center row-span-2 col-span-3  ">
-                <p className = "text-[30px] font-display">creative architect</p>
-                <p className="text-[150px] lg:text-[250px] font-display font-extrabold">DEV</p>
+            <div className = "object-center">
+                <p className = "text-[30px] text-center m-4 font-display">creative architect</p>
+                <p className="text-[150px] text-center lg:text-[250px] font-display font-extrabold">DEV</p>
                 <p></p>
+                
+            </div>
+              <div>
                 <NavLink
                 to="/contact"
                 exact
-                className="bg-transparent hover:bg-gray-300 text-white border text-2xl border-gray-500 font-bold py-4 px-8 rounded-full ">
+                className=" bg-transparent hover:bg-gray-300 text-white border-2 text-xl sm:text-2xl border-white font-bold py-2 px-4 sm:py-4 sm:px-8 rounded-full ">
                     CONTACT ME
                 </NavLink>
-            </div>
-              
+                </div>
             <div className = "row-span-2 ">
-                <p className = "text-[30px] font-bold">get to know me</p>
+                <p className = "my-3 mx-2 text-2xl sm:text-[30px] font-bold">get to know me</p>
                     <a className="mx-2" href="https://www.instagram.com/grayce.elisabeth_/" >
                         <FontAwesomeIcon icon={faInstagram} style={{height:"30px", color: "#ffffff",}} />
                     </a>
