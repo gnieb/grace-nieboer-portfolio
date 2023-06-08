@@ -14,12 +14,13 @@ function NavBar () {
                         <h1 className="text-sm sm:text-lg font-display font-bold">Grace Nieboer</h1>
                         <h1 className="text-sm sm:text-lg font-display font-bold">Software Engineer</h1>
                     </div>
-                    <div onClick={()=> console.log("it works YAY")}  className="sm:hidden space-y-2">
+                    <div onClick={()=> setShowMenu(!showMenu)}  className="sm:hidden p-4 space-y-2 z-10">
                         <div className="w-6 h-0.5 bg-white"></div>
                         <div className="w-6 h-0.5 bg-white"></div>
                         <div className="w-6 h-0.5 bg-white"></div>
                     </div>
-                    <ul className=" hidden bg-orange-600 absolute left-0 top-0 w-full p-10 space-y-8 text-center rounded-b-3xl">
+                    <ul className={showMenu ? "bg-orange-600 absolute left-0 top-0 w-full p-5 space-y-5 text-center rounded-b-3xl" : 
+                    "hidden bg-orange-600 absolute left-0 top-0 w-full p-7 space-y-8 text-center rounded-b-3xl"}>
                         <li>
                             <NavLink
                             to="/"
