@@ -16,7 +16,7 @@ function Home () {
             </div>
             <div className = "object-center">
                 <p className = "text-[30px] text-center m-4 font-display">creative architect</p>
-                <p className="text-[150px] text-center lg:text-[250px] font-display font-extrabold">DEV</p>
+                <p className="text-[150px] text-left lg:text-[250px] font-display font-extrabold">DEV</p>
                 <p></p>
                 
             </div>
@@ -28,8 +28,8 @@ function Home () {
                     CONTACT ME
                 </NavLink>
                 </div>
-            <div className = "row-span-2 ">
-                <p className = "my-3 mx-2 text-2xl sm:text-[30px] font-bold">get to know me</p>
+            <div className = "">
+                <p className = "my-4 text-2xl sm:text-[30px] font-bold">get to know me</p>
                     <a className="mx-2" href="https://www.instagram.com/grayce.elisabeth_/" >
                         <FontAwesomeIcon icon={faInstagram} style={{height:"30px", color: "#ffffff",}} />
                     </a>
