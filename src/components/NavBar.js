@@ -5,6 +5,7 @@ import { useState } from "react";
 function NavBar () {
     const [showMenu, setShowMenu] = useState(false)
 
+
     return (
         <nav className="bg-transparent">
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -13,7 +14,7 @@ function NavBar () {
                         <h1 className="text-sm sm:text-lg font-display font-bold">Grace Nieboer</h1>
                         <h1 className="text-sm sm:text-lg font-display font-bold">Software Engineer</h1>
                     </div>
-                    <div className="sm:hidden space-y-2">
+                    <div onClick={()=> console.log("it works YAY")}  className="sm:hidden space-y-2">
                         <div className="w-6 h-0.5 bg-white"></div>
                         <div className="w-6 h-0.5 bg-white"></div>
                         <div className="w-6 h-0.5 bg-white"></div>
