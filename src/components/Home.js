@@ -15,7 +15,7 @@ function Home () {
             <div className=" text-3xl sm:text-[40px]">
                 I AM A PASSIONATE DEVELOPER WITH A LOVE FOR FINDING CREATIVE SOLUTIONS THAT MAKE THE WORLD BETTER. OH, AND I'M A COFFEE FIEND.
             </div>
-            <div className = "text-[150px] text-left lg:text-[250px] font-display font-extrabold">
+            <div className = "text-[150px] text-left lg:text-[200px] font-display font-extrabold">
                 <p className = "text-[30px] text-center m-4 font-display">passionate</p>
                 <Typewriter
             
@@ -28,8 +28,6 @@ function Home () {
                         .start();
                 }}
             />
-                <p className="text-[150px] text-left lg:text-[250px] font-display font-extrabold">DEV</p>
-                <p></p>
                 
             </div>
               <div>
