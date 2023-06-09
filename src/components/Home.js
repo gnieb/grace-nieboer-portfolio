@@ -5,6 +5,7 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { NavLink } from "react-router-dom";
+import Typewriter from "typewriter-effect";
 
 
 function Home () {
@@ -14,8 +15,19 @@ function Home () {
             <div className=" text-3xl sm:text-[40px]">
                 I AM A PASSIONATE DEVELOPER WITH A LOVE FOR FINDING CREATIVE SOLUTIONS THAT MAKE THE WORLD BETTER. OH, AND I'M A COFFEE FIEND.
             </div>
-            <div className = "object-center">
-                <p className = "text-[30px] text-center m-4 font-display">creative architect</p>
+            <div className = "text-[150px] text-left lg:text-[250px] font-display font-extrabold">
+                <p className = "text-[30px] text-center m-4 font-display">passionate</p>
+                <Typewriter
+            
+                onInit={(typewriter) => {
+                    typewriter
+                        .typeString("DEV")
+                        .pauseFor(1000)
+                        .deleteAll()
+                        .typeString("ARCHITECT")
+                        .start();
+                }}
+            />
                 <p className="text-[150px] text-left lg:text-[250px] font-display font-extrabold">DEV</p>
                 <p></p>
                 
