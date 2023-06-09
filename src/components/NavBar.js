@@ -11,8 +11,8 @@ function NavBar () {
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                 <div className="relative flex h-16 items-center justify-between">
                     <div className="flex space-x-2 sm:space-x-10">
-                        <h1 className="text-sm sm:text-lg font-display font-bold">Grace Nieboer</h1>
-                        <h1 className="text-sm sm:text-lg font-display font-bold">Software Engineer</h1>
+                        <h1 className="text-sm sm:text-lg font-display font-bold">grace nieboer, software engineer</h1>
+                        
                     </div>
                     <div onClick={()=> setShowMenu(!showMenu)}  className="sm:hidden p-4 space-y-2 z-10">
                         <div className="w-6 h-0.5 bg-white"></div>

@@ -24,7 +24,7 @@ function Home () {
                 <NavLink
                 to="/contact"
                 exact
-                className=" bg-transparent hover:bg-gray-300 text-white border-2 text-xl sm:text-2xl border-white font-bold py-2 px-4 sm:py-4 sm:px-8 rounded-full ">
+                className=" bg-gray-300 hover:bg-orange-600 text-white border-2 text-xl sm:text-2xl border-white font-bold py-2 px-4 sm:py-4 sm:px-8 rounded-full ">
                     CONTACT ME
                 </NavLink>
                 </div>
