@@ -25,11 +25,11 @@ function Home () {
             </div>
             <div className="flex justify-end">
                 
-                <div className=" text-3xl sm:text-5xl w-3/4 text-right ">
+                <div className=" text-3xl sm:text-5xl sm:w-3/4 text-right ">
                     I AM A PASSIONATE DEVELOPER WITH A LOVE FOR FINDING CREATIVE SOLUTIONS THAT MAKE THE WORLD BETTER WITH A COFFEE IN MY HAND.
                 </div>
             </div>
-            <div className = "flex flex-col text-right mr-28 my-20">
+            <div className = "flex flex-col text-right mr-28 my-5 sm:my-20">
                 <div >
                     <p className = "my-4 text-2xl sm:text-[40px] font-bold">get to know me</p>
                         <a className="mx-2" href="https://www.instagram.com/grayce.elisabeth_/" >
