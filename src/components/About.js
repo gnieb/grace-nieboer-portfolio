@@ -3,7 +3,7 @@ function About () {
 
     return (
         <div className="mx-8 relative mb-8"> 
-            <p className="text-7xl font-display p-10 my-7 sm:my-6">HI THERE, AND WELCOME! </p>
+            <p className="text-7xl font-display sm:p-10 my-7 sm:my-6">HI THERE, AND WELCOME! </p>
             <p className = "text-3xl text-justify sm:w-3/4 p-3 ">My name is Grace Nieboer. I am a full stack software engineer with a love for the creative elements of front-end design, but I recently fell in love with Python on the back-end along with REST-ful API architecture.</p>
             <div className="w-3/4 sm:w-1/2 m-5 absolute right-0 mb-5 pb-10 mr-20">
                 <p className="text-3xl font-bold">BACKGROUND</p>
