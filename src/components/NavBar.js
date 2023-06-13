@@ -26,6 +26,7 @@ function NavBar () {
                             to="/"
                             exact
                             className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
+                            onClick={()=> setShowMenu(!showMenu)}
                             >
                                 HOME
                             </NavLink>
@@ -35,6 +36,7 @@ function NavBar () {
                             to="/about"
                             exact
                             className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
+                            onClick={()=> setShowMenu(!showMenu)}
                             >
                                 ABOUT
                             </NavLink>
@@ -44,6 +46,7 @@ function NavBar () {
                             to="/portfolio"
                             exact
                             className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
+                            onClick={()=> setShowMenu(!showMenu)}
                             >
                                 PORTFOLIO
                             </NavLink>
