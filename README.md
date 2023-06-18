@@ -10,6 +10,8 @@
 
 
 ## To DO
+- research best way to showcase work
+- nadd scrolling behavior effects
 
 - put a fun picture up of myself on the about page 
 - portfolio page - spice it up!!!
