@@ -5,7 +5,6 @@ import { useState } from "react";
 function NavBar () {
     const [showMenu, setShowMenu] = useState(false)
 
-
     return (
         <nav className="bg-transparent">
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -32,14 +31,14 @@ function NavBar () {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink
+                            <a
                             to="/about"
                             exact
                             className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
                             onClick={()=> setShowMenu(!showMenu)}
                             >
                                 ABOUT
-                            </NavLink>
+                            </a>
                         </li>
                         <li>
                             <NavLink
@@ -60,20 +59,18 @@ function NavBar () {
                         >
                             HOME
                         </NavLink>
-                        <NavLink
-                        to="/about"
-                        exact
+                        <a
+                        href="#about"
                         className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
                         >
                             ABOUT
-                        </NavLink>
-                        <NavLink
-                        to="/portfolio"
-                        exact
+                        </a>
+                        <a
+                        href="#portfolio"
                         className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
                         >
-                            PORTFOLIO
-                        </NavLink>
+                            WORK
+                        </a>
                     </div>
                 </div>
             </div>

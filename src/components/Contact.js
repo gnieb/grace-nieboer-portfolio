@@ -5,6 +5,7 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 export default function Contact () {
     return (
         <>
+        <a id="contact">Contact</a>
         <h1 className= "text-7xl">
             Looking to collaborate or meet for coffee?
         </h1>
