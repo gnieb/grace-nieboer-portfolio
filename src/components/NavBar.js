@@ -21,18 +21,17 @@ function NavBar () {
                     <ul className={showMenu ? "bg-orange-600 absolute left-0 top-0 w-full p-5 space-y-5 text-center rounded-b-3xl" : 
                     "hidden bg-orange-600 absolute left-0 top-0 w-full p-7 space-y-8 text-center rounded-b-3xl"}>
                         <li>
-                            <NavLink
-                            to="/"
-                            exact
+                            <a
+                            href="#home"
                             className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
                             onClick={()=> setShowMenu(!showMenu)}
                             >
                                 HOME
-                            </NavLink>
+                            </a>
                         </li>
                         <li>
                             <a
-                            to="/about"
+                            href="#about"
                             exact
                             className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
                             onClick={()=> setShowMenu(!showMenu)}
@@ -41,24 +40,22 @@ function NavBar () {
                             </a>
                         </li>
                         <li>
-                            <NavLink
-                            to="/portfolio"
-                            exact
+                            <a
+                            href="#portfolio"
                             className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
                             onClick={()=> setShowMenu(!showMenu)}
                             >
                                 PORTFOLIO
-                            </NavLink>
+                            </a>
                         </li>
                     </ul>
                     <div className="hidden sm:flex sm:space-x-4 ">
-                        <NavLink
-                        to="/"
-                        exact
+                        <a
+                        href="#home"
                         className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
                         >
                             HOME
-                        </NavLink>
+                        </a>
                         <a
                         href="#about"
                         className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"

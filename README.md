@@ -12,6 +12,7 @@
 ## To DO
 - research best way to showcase work
 - nadd scrolling behavior effects
+- add a top anchor? or make the nav bar fixed...
 
 - put a fun picture up of myself on the about page 
 - portfolio page - spice it up!!!

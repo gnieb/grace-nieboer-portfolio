@@ -12,7 +12,7 @@ function Home () {
 
     return (
         
-        <div className = "m-5 p-2">
+        < div id="home" className = "m-5 p-2">
             <div className = "text-[50px] text-left md:text-[100px] xl:text-[200px] font-display font-extrabold">
                 <p className = "text-[20px] sm:text-[30px] text-left font-display">passionate</p>
                 <Typewriter
