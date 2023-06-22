@@ -32,7 +32,6 @@ function NavBar () {
                         <li>
                             <a
                             href="#about"
-                            exact
                             className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
                             onClick={()=> setShowMenu(!showMenu)}
                             >
