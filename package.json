@@ -25,8 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "build-css": "tailwindcss build src/index.css -o public/index.css",
-    "test": "react-scripts test",
+    "test": "react-scripts test --watchAll --coverage",
     "eject": "react-scripts eject"
+    
   },
   "eslintConfig": {
     "extends": [

@@ -6,7 +6,7 @@ function NavBar () {
     const [showMenu, setShowMenu] = useState(false)
 
     return (
-        <nav className="bg-transparent">
+        <nav className="bg-transparent ">
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                 <div className="relative flex h-16 items-center justify-between">
                     <div className="flex space-x-2 sm:space-x-10">
