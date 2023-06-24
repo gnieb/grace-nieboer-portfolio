@@ -4,7 +4,8 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 export default function Contact () {
     return (
-        <>
+        <div className="mx-8 mb-8">
+        <a id="contact">Contact</a>
         <h1 className= "text-7xl">
             Looking to collaborate or meet for coffee?
         </h1>
@@ -15,6 +16,6 @@ export default function Contact () {
         <a href="mailto:grace.nieboer@outlook.com">
             <FontAwesomeIcon icon={faEnvelope} style={{height:"60px", color:"#ffffff", margin:"10px"}}/>
         </a>
-        </>
+        </div>
     )
 }

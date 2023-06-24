@@ -5,9 +5,8 @@ import { useState } from "react";
 function NavBar () {
     const [showMenu, setShowMenu] = useState(false)
 
-
     return (
-        <nav className="bg-transparent">
+        <nav className="bg-transparent ">
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                 <div className="relative flex h-16 items-center justify-between">
                     <div className="flex space-x-2 sm:space-x-10">
@@ -22,58 +21,52 @@ function NavBar () {
                     <ul className={showMenu ? "bg-orange-600 absolute left-0 top-0 w-full p-5 space-y-5 text-center rounded-b-3xl" : 
                     "hidden bg-orange-600 absolute left-0 top-0 w-full p-7 space-y-8 text-center rounded-b-3xl"}>
                         <li>
-                            <NavLink
-                            to="/"
-                            exact
+                            <a
+                            href="#home"
                             className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
                             onClick={()=> setShowMenu(!showMenu)}
                             >
                                 HOME
-                            </NavLink>
+                            </a>
                         </li>
                         <li>
-                            <NavLink
-                            to="/about"
-                            exact
+                            <a
+                            href="#about"
                             className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
                             onClick={()=> setShowMenu(!showMenu)}
                             >
                                 ABOUT
-                            </NavLink>
+                            </a>
                         </li>
                         <li>
-                            <NavLink
-                            to="/portfolio"
-                            exact
+                            <a
+                            href="#portfolio"
                             className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
                             onClick={()=> setShowMenu(!showMenu)}
                             >
                                 PORTFOLIO
-                            </NavLink>
+                            </a>
                         </li>
                     </ul>
                     <div className="hidden sm:flex sm:space-x-4 ">
-                        <NavLink
-                        to="/"
-                        exact
+                        <a
+                        href="#home"
                         className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
                         >
                             HOME
-                        </NavLink>
-                        <NavLink
-                        to="/about"
-                        exact
+                        </a>
+                        <a
+                        href="#about"
                         className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
                         >
                             ABOUT
-                        </NavLink>
-                        <NavLink
-                        to="/portfolio"
-                        exact
+                        </a>
+                        <a
+                        href="#portfolio"
                         className="hover:text-white rounded-md px-3 py-2 text-sm sm:text-xl font-medium"
                         >
-                            PORTFOLIO
-                        </NavLink>
+                            WORK
+                        </a>
                     </div>
                 </div>
             </div>
