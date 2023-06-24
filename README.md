@@ -7,6 +7,8 @@
 - Javascript
 - Tailwind
 - Font Awesome
+- user-event library to test user interactions
+
 
 
 ## To DO
