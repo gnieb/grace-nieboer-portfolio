@@ -10,7 +10,7 @@ export default function Contact () {
             Looking to collaborate or meet for coffee?
         </h1>
         Shoot me a message on LinkedIn or via Email
-        <a href="https://www.linkedin.com/in/gracenieboer/" target="_blank">
+        <a href="https://www.linkedin.com/in/gracenieboer/" target="_blank" rel="noreferrer">
         <FontAwesomeIcon icon={faLinkedin} style={{height:"60px",color: "#ffffff", margin:"10px"}}/>
         </a>
         <a href="mailto:grace.nieboer@outlook.com">
